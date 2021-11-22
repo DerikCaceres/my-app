@@ -1,9 +1,11 @@
 <template>
-    <div id="app">
-      <div class="geral">
-        <Navigationdrawer/>
-        <Content/>  
-      </div>
+  <div id="app">
+    <div class="geral">
+      <Navigationdrawer/>
+      <v-content>
+        <v-container class="conteudo">main teste</v-container>
+      </v-content>
+    </div>
   </div>
 </template>
 
@@ -16,13 +18,10 @@
     flex: 1;
 
   }
-  .conteudo {
-  }
 </style>
 
 <script>
 import Navigationdrawer from './Navigationdrawer.vue';
-import Content from './Content.vue';
   export default {
     name: 'HelloWorld',
 
@@ -44,11 +43,11 @@ import Content from './Content.vue';
       importantLinks: [
         {
           text: 'Documentation',
-          href: 'https://vuetifyjs.com',
+          href: 'https://vuetifyjs.com/',
         },
         {
           text: 'Chat',
-          href: 'https://community.vuetifyjs.com',
+          href: 'https://community.vuetifyjs.com/',
         },
         {
           text: 'Made with Vuetify',
@@ -79,8 +78,7 @@ import Content from './Content.vue';
       ],
     }),
     components: {
-      Navigationdrawer,
-      Content
+      Navigationdrawer
     }
   }
 </script>
