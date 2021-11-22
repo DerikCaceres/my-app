@@ -1,4 +1,6 @@
 # my-app
+![screenshot](https://github.com/DerikCaceres/my-app/blob/main/src/assets/myapp.png?raw=true)
+![screenshot](https://github.com/DerikCaceres/my-app/blob/main/src/assets/myapp2.png?raw=true)
 
 ## Project setup
 ```
